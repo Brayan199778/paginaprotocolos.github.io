@@ -1,0 +1,122 @@
+/* Estilos para el botón de volver */
+.back-button {
+    background-color: red;
+    color: rgb(247, 236, 236);
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: darkred;
+}
+
+.next-button {
+    
+background: #a370f0;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+  }
+  
+  .cssbuttons-io-button .icon {
+    background: rgb(106, 102, 102);
+    margin-left: 1em;
+    position: absolute;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #7b52b9;
+  }
+  
+  .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+  }
+  
+  .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+  }
+
+/* Contenedor principal de la página de zapatos */
+.shoes-container {
+    padding: 2em;
+    text-align: center;
+}
+
+.shoes-container h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+/* Contenedor para la cuadrícula de zapatos */
+.shoes-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+/* Tarjeta individual de zapato */
+.shoe-card {
+    background-color: #080808;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(243, 239, 239, 0.1);
+    text-align: center;
+    padding: 1em;
+}
+
+.shoe-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.shoe-info {
+    padding: 0.5em 0;
+}
+
+.shoe-title {
+    font-size: 1.2em;
+    margin: 0;
+    color: #efe8e8;
+}
+
+.shoe-price {
+    font-size: 1.1em;
+    color: #2fd376;
+    margin: 0;
+}

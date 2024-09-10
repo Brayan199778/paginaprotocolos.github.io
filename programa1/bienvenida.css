@@ -1,0 +1,76 @@
+/* Estilos para la página de bienvenida */
+.welcome-body {
+    background-color: #000;
+    color: #5eb0f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.welcome-container {
+    text-align: center;
+}
+
+.logout-button {
+  background-color: #dc3545; /* Color de fondo rojo para el botón */
+  color: white;
+  border: none;
+  padding: 0.75em 1.5em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 2em;
+  font-size: 1em;
+}
+
+.logout-button:hover {
+  background-color: #c82333;}
+
+.welcome-container h1 {
+    font-size: 36px;
+    margin-bottom: 2em;
+}
+
+/* Estilos del menú */
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+/* From Uiverse.io by reshades */ 
+.button {
+    background-color: #ffffff00;
+    color: #fff;
+    width: 8.5em;
+    height: 2.9em;
+    border: #3654ff 0.2em solid;
+    border-radius: 11px;
+    text-align: right;
+    transition: all 0.6s ease;
+  }
+  
+  .button:hover {
+    background-color: #06aff8;
+    cursor: pointer;
+  }
+  
+  .button svg {
+    width: 1.6em;
+    margin: -0.2em 0.8em 1em;
+    position: absolute;
+    display: flex;
+    transition: all 0.6s ease;
+  }
+  
+  .button:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .text {
+    margin: 0 1.5em
+  }
